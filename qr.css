@@ -1,0 +1,53 @@
+.overall{
+    background-color: rgb(182, 206, 254);
+    padding-top: 120px;
+}
+
+.card{
+    background-color: white;
+    text-align: center;
+    border-style: none;
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+}
+
+.image{
+    margin-top: 25px;
+    margin-left: 25px;
+    border-style: none;
+    border-radius: 10px;
+    width:300px;
+    height: 300px;
+}
+
+.container{
+    text-align: center;
+}
+
+p{
+    color: darkgray;
+    font-size: 15px;
+}
+
+@media only screen and (max-width:658px){
+    .card{
+        width: 250px;
+        height: 380px;
+    }
+
+    .image{
+        margin-top: 25px;
+        margin-left: 25px;
+        width:200px;
+        height: 200px;
+    }
+
+    h4{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+}
