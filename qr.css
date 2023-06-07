@@ -29,9 +29,6 @@
 
 .card:hover{
     box-shadow:1px 1px 25px 1px black;
-    width: 360px;
-    height: 510px;
-    transition: 2s;
 }
 
 .image{
@@ -75,8 +72,6 @@ p{
 
 .card:hover{
     box-shadow:1px 1px 25px 1px black;
-    width: 550px;
-    height: 700px;
 }
 
     .image{
