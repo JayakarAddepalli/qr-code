@@ -10,6 +10,27 @@
     border-radius: 10px;
     width: 350px;
     height: 500px;
+    animation-name:carditems;
+    animation-duration:2s;
+}
+
+@keyframes carditems{
+    from{
+        transform:translateX(-400px);
+        opacity: 0;
+    }
+    
+    to{
+        transform:translateX(0px);
+        opacity: 1;
+    }
+
+}
+
+.card:hover{
+    box-shadow:1px 1px 25px 1px black;
+    width: 550px;
+    height: 700px;
 }
 
 .image{
