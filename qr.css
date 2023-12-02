@@ -12,6 +12,7 @@
     height: 500px;
     animation-name:carditems;
     animation-duration:2s;
+    transition: 2s;
 }
 
 @keyframes carditems{
